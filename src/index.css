@@ -81,7 +81,55 @@ button:focus-visible {
   }
 }
 
+/*FORSIDE CSS*/
+
 h1 {
   color: red;
   font-family: "main", sans-serif;
+}
+
+.forside {
+  background-color: green;
+  height: 100vh;
+  width: 100vw;
+}
+
+/*Projects CSS*/
+.projects {
+  background-color: blue;
+  height: 100vh;
+  width: 100vw;
+}
+
+/*About CSS*/
+.about {
+  background-color: rgb(255, 0, 0);
+  height: 100vh;
+  width: 100vw;
+}
+
+/*Footer CSS*/
+.footer-section {
+  background-color: yellow;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* SNAP SCROLL CSS */
+.snap-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.snap-section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #8d027a;
 }
