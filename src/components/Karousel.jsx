@@ -11,7 +11,7 @@ export default function Karousel({ items }) {
   return (
     <div className="karousel-box">
       <img
-        src="./img/portfolio-baggrund-1.png"
+        src="./img/portfolio-baggrund-2.png"
         alt=""
         className="karousel-background"
       />

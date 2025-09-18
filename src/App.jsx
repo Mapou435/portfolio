@@ -1,24 +1,24 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Contact from "./pages/Contact";
 import { NavLink } from "react-router-dom";
-import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <BrowserRouter>
       <nav>
-        <NavLink to="/Projects">Projekter</NavLink>
-        <NavLink to="/Om-mig">Om mig</NavLink>
-        <NavLink to="/Kontakt">Kontakt</NavLink>
-        <NavLink to="/" end>
+        <a href="#projects">Projekter</a>
+        <a href="#About">Om mig</a>
+        <a href="#Kontakt">Kontakt</a>
+        <a href="">
           <img src="/img/logo.png" alt="Home" className="nav-image" />
-        </NavLink>
+        </a>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/Projects" element={<Projects />}></Route>
+        <Route path="/About" element={<Home />} />
+        <Route path="/Projects" element={<Home />} />
+        <Route path="/kontakt" element={<Footer />} />
       </Routes>
     </BrowserRouter>
   );

@@ -9,13 +9,13 @@ export default function Home() {
       <section className="snap-section">
         <Forside />
       </section>
-      <section className="snap-section">
+      <section className="snap-section" id="projects">
         <Projects />
       </section>
-      <section className="snap-section">
+      <section className="snap-section" id="About">
         <About />
       </section>
-      <section className="snap-section">
+      <section className="snap-section" id="Kontakt">
         <Footer />
       </section>
     </div>

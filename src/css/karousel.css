@@ -5,6 +5,7 @@
   overflow: hidden;
   width: 100vw;
   height: 100vh;
+  z-index: 10;
 }
 
 .karousel-background {
@@ -44,6 +45,7 @@
   align-items: flex-start;
   justify-content: center;
   position: relative;
+  padding: 0;
   bottom: 5%;
   left: 30%;
   z-index: 2;
@@ -52,19 +54,27 @@
 
 .karousel-title {
   font-family: "sub", sans-serif;
+  color: #a10f0f;
+  font-size: 4vh;
+  line-height: 0.5;
+  margin: 0;
 }
 
 .karousel-subtitle {
   font-family: "main", sans-serif;
+  color: #1f1f1f;
+  font-size: 4vh;
+  margin: 0;
 }
 
 .karousel-body {
   font-family: "body", sans-serif;
+  color: #1f1f1f;
 }
 
 .karousel-link {
   position: relative;
   z-index: 30;
   font-family: "main", sans-serif;
-  color: black;
+  color: #1f1f1f;
 }
