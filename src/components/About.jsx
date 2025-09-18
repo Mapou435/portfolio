@@ -1,4 +1,13 @@
 export default function About() {
+  function handleKontakt() {
+    alert("du har klikket på kontakt mig");
+    console.log("knap klikket");
+  }
+
+  function handleDownload() {
+    alert("Du har downloaded mit CV");
+    console.log("downloadet CV");
+  }
   return (
     <div className="about">
       <h1>
@@ -10,8 +19,12 @@ export default function About() {
       </h2>
       <div className="about-main">
         <div className="kontakt-knapper">
-          <button id="kontakt-mig">Kontakt mig</button>
-          <button id="download-cv">Download CV</button>
+          <button id="kontakt-mig" onClick={handleKontakt}>
+            Kontakt mig
+          </button>
+          <button id="download-cv" onClick={handleDownload}>
+            Download CV
+          </button>
         </div>
         <p className="about-body">
           Jeg er Mathilde, frontend developer med fokus på innovation,

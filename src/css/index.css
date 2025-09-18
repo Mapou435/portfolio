@@ -210,8 +210,8 @@ button:focus-visible {
   display: flex;
   flex-direction: column;
   gap: 2vw;
-
   width: 30vw;
+  margin-left: 0.3vh;
 }
 
 #kontakt-mig {
