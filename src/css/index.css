@@ -161,10 +161,76 @@ button:focus-visible {
 }
 
 /*About CSS*/
+
+#age {
+  font-size: 3.5vw;
+}
+.about h1 {
+  font-family: "main", sans-serif;
+  color: #1f1f1f;
+  padding-top: 15vh;
+  margin: 0;
+}
+
+.about h2 {
+  font-family: "sub", sans-serif;
+  color: #a10f0f;
+  font-size: 2.5vw;
+  margin: 0;
+  padding-top: 2vh;
+}
+
+.about p {
+  font-family: "body", sans-serif;
+  color: #1f1f1f;
+  font-size: 1.5vw;
+  width: 55vw;
+  padding-right: 3.5vw;
+  text-align: right;
+  background-color: rgba(233, 233, 233, 0.7);
+}
+
 .about {
-  background-color: rgb(255, 0, 0);
   height: 100vh;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./img/background-forside.png");
+  background-size: cover;
+}
+
+.about-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kontakt-knapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+
+  width: 30vw;
+}
+
+#kontakt-mig {
+  border-color: #a10f0f;
+  border-width: 0.7vh;
+  background-color: #a10f0f;
+  color: #e9e9e9;
+}
+#download-cv {
+  border-color: #1f1f1f;
+  border-width: 0.7vh;
+  background-color: transparent;
+  color: #1f1f1f;
+}
+
+button,
+.forside-knap,
+.kontakt-knapper button {
+  border-radius: 0 !important;
 }
 
 /*Footer CSS*/

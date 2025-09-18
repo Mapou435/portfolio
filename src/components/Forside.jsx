@@ -12,12 +12,12 @@ export default function Forside() {
           <Animatedtext
             initialText="ME"
             animatedTextArray={[
-              "Frontend|Developer",
-              "Multimedia|Designer",
-              "UI/UX|Strategist",
-              "Curiosity|Driven",
-              "People|Oriented",
-              "Inclusive|Thinker",
+              "Frontend Developer",
+              "Multimedia Designer",
+              "UI/UX Strategist",
+              "Curiosity Driven",
+              "People Oriented",
+              "Inclusive Thinker",
             ]}
           ></Animatedtext>
         </div>
