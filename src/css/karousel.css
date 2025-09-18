@@ -29,6 +29,8 @@
   display: flex;
   flex-direction: row;
   top: 25%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .karousel-image {
@@ -41,4 +43,28 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  position: relative;
+  bottom: 5%;
+  left: 30%;
+  z-index: 2;
+  width: 40vw;
+}
+
+.karousel-title {
+  font-family: "sub", sans-serif;
+}
+
+.karousel-subtitle {
+  font-family: "main", sans-serif;
+}
+
+.karousel-body {
+  font-family: "body", sans-serif;
+}
+
+.karousel-link {
+  position: relative;
+  z-index: 30;
+  font-family: "main", sans-serif;
+  color: black;
 }

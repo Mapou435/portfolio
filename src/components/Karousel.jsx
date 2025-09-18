@@ -25,6 +25,13 @@ export default function Karousel({ items }) {
           <h2 className="karousel-title">{items[active].name}</h2>
           <h3 className="karousel-subtitle">{items[active].subtitle}</h3>
           <p className="karousel-body">{items[active].body}</p>
+          <a
+            className="karousel-link"
+            href={items[active].links[0]?.url || "#"}
+            target="_blank"
+          >
+            {items[active].links[0]?.text || "Se mere her"}
+          </a>
         </div>
       </div>
       <button className="prev-arrow" onClick={prev}>
