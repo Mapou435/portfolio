@@ -1,6 +1,6 @@
 @font-face {
   font-family: "main";
-  src: url("../src/fonts/mainfont/Molend.otf") format("truetype");
+  src: url("../src/assets/") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
