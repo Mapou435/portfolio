@@ -1,6 +1,6 @@
 @font-face {
   font-family: "main";
-  src: url("../src/assets/") format("truetype");
+  src: url("../fonts/mainfont/Molend.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -83,15 +83,41 @@ button:focus-visible {
 
 /*FORSIDE CSS*/
 
-h1 {
-  color: red;
-  font-family: "main", sans-serif;
+.forside-layout {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.forside {
-  background-color: green;
-  height: 100vh;
-  width: 100vw;
+.forside-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30vw;
+  max-width: 800px;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.forside-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "main", sans-serif;
+  font-size: 4vw;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 80vw;
+  pointer-events: none;
 }
 
 /*Projects CSS*/
