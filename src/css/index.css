@@ -242,7 +242,7 @@ button,
 
 .kontakt-form {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   justify-content: space-between;
@@ -254,8 +254,8 @@ button,
 form {
   display: flex;
   flex-direction: column;
-  margin-top: 50vh;
-  margin-right: 15vw;
+  padding-bottom: 12vh;
+  margin-right: 12vw;
   font-family: "sub", sans-serif;
 }
 
@@ -288,6 +288,19 @@ form {
 
 .kontakt-form button {
   background-color: #a10f0f;
+}
+
+.bottom-form {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-form p {
+  font-family: "sub", sans-serif;
+  color: #1f1f1f;
 }
 
 .kontakt-form input,

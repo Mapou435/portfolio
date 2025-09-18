@@ -1,5 +1,5 @@
 // Igen, Usikker på om vi må bruge kode fra andre, så vil lige outline at denne kode er lavet med Formspree's dokumentation.
-
+import Links from "./Links";
 import React, { useState } from "react";
 
 export default function Contact() {
@@ -29,18 +29,21 @@ export default function Contact() {
         <br />
         <span id="pil-kontakt">⭜</span>*/}
       </h2>
-      {sent ? (
-        <p>
-          Tak for din interesse! <br /> Jeg vender tilbage hurtigst muligt.
-        </p>
-      ) : (
-        <form onSubmit={handleSubmit}>
-          <input name="name" type="text" placeholder="Dit Navn" required />
-          <input name="email" type="email" placeholder="Din Email" required />
-          <textarea name="message" placeholder="Besked" required />
-          <button type="submit">Send</button>
-        </form>
-      )}
+      <div className="bottom-form">
+        <p>HEUHUHDUHAUIDBIUADUIHAUW</p>
+        {sent ? (
+          <p>
+            Tak for din interesse! <br /> Jeg vender tilbage hurtigst muligt.
+          </p>
+        ) : (
+          <form onSubmit={handleSubmit}>
+            <input name="name" type="text" placeholder="Dit Navn" required />
+            <input name="email" type="email" placeholder="Din Email" required />
+            <textarea name="message" placeholder="Besked" required />
+            <button type="submit">Send</button>
+          </form>
+        )}
+      </div>
     </div>
   );
 }
