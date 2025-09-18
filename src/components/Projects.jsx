@@ -12,7 +12,11 @@ export default function Projects() {
 
   return (
     <div className="projects">
-      {items.length > 0 ? <Karousel items={items} /> : <p>Loading...</p>}
+      {items.length > 0 ? (
+        <Karousel items={items} />
+      ) : (
+        <p>Indhold kunne ikke indlæses</p>
+      )}
     </div>
   );
 }

@@ -10,16 +10,21 @@ export default function Karousel({ items }) {
 
   return (
     <div className="karousel-box">
+      <img
+        src="./img/portfolio-baggrund-1.png"
+        alt=""
+        className="karousel-background"
+      />
       <div className="karousel-main">
         <img
           src={items[active].image}
-          alt={items[active].title}
+          alt={items[active].name}
           className="karousel-image"
         />
         <div className="karousel-hero">
-          <h2 className="karousel-title">{items[active].title}</h2>
+          <h2 className="karousel-title">{items[active].name}</h2>
           <h3 className="karousel-subtitle">{items[active].subtitle}</h3>
-          <p className="karousel-text">{items[active].text}</p>
+          <p className="karousel-body">{items[active].body}</p>
         </div>
       </div>
       <button className="prev-arrow" onClick={prev}>
