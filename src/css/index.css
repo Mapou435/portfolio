@@ -117,7 +117,7 @@ button:focus-visible {
   font-family: "main", sans-serif;
   text-align: left;
   z-index: 1;
-  color: #a10f0f;
+  color: #a10f0f !important;
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -240,11 +240,80 @@ button,
   width: 100vw;
 }
 
+.kontakt-form {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-between;
+  gap: 2vh;
+  background-image: url("./img/background-forside.png");
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50vh;
+  margin-right: 15vw;
+  font-family: "sub", sans-serif;
+}
+
+.kontakt-form h2 {
+  font-family: "main", sans-serif;
+  color: #1f1f1f;
+  margin-top: 15vh;
+  font-size: 4.5vw;
+  /*transform: rotate(-20deg);*/
+}
+/*#pil-kontakt {
+  font-size: 14vw;
+  margin-left: 15vw;
+  display: inline-block;
+  transform: rotate(0deg);
+}*/
+
+.kontakt-form input {
+  width: 25vw;
+  height: 5vh;
+}
+
+.kontakt-form textarea {
+  width: 25vw;
+  height: 20vh;
+  resize: none;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.kontakt-form button {
+  background-color: #a10f0f;
+}
+
+.kontakt-form input,
+.kontakt-form textarea {
+  font-family: "body", sans-serif;
+  color: #1f1f1f;
+  background-color: #e9e9e9;
+  border-color: #1f1f1f;
+  border-width: 0.1vh;
+  font-size: 2.2vh;
+}
+/*Sikre at det ikke er noget overlap som stopper input*/
+.kontakt-form,
+.kontakt-form form,
+.kontakt-form input,
+.kontakt-form textarea,
+.kontakt-form button {
+  z-index: 1000 !important;
+}
+
 /* SNAP SCROLL CSS */
 .snap-container {
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+  overscroll-behavior-y: contain;
 }
 
 .snap-section {

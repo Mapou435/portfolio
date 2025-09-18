@@ -1,6 +1,13 @@
 export default function About() {
   function handleKontakt() {
-    window.location.hash = "#Kontakt";
+    if (window.location.hash === "#Kontakt") {
+      window.location.hash = "";
+      setTimeout(() => {
+        window.location.hash = "#Kontakt";
+      }, 10);
+    } else {
+      window.location.hash = "#Kontakt";
+    }
     console.log("knap klikket");
   }
 
