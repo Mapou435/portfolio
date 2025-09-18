@@ -1,11 +1,51 @@
-.frontend-text {
-  font-size: 2vw !important;
+.animated-text-container {
+  position: relative;
+  display: inline-block;
+}
+
+.initial-text {
+  position: absolute;
+  font-size: 21vw;
+  color: #a10f0f;
+  z-index: 1;
+  opacity: 1;
+  left: 60vw;
+  line-height: 1.2;
+}
+
+.typed-overlay {
+  position: absolute;
+  left: 61vw;
+  z-index: 2;
+  top: 3.6vh;
+}
+
+.animated-text {
+  line-height: 1.2;
+  font-size: 2.3vw;
   color: #1f1f1f;
   font-family: "main", sans-serif;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  left: 60vw;
-  position: relative;
-  transition: color 0.3s, font-size 0.3s;
-  max-width: 40vw;
+  display: block;
+  width: 40vw;
+}
+
+.animated-flex-line {
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+  margin-bottom: 1vw;
+}
+
+.animated-text.left {
+  text-align: left;
+  font-size: 2.3vw;
+  color: #1f1f1f;
+  font-family: "main", sans-serif;
+}
+
+.animated-text.right {
+  text-align: right;
+  font-size: 2.3vw;
+  color: #1f1f1f;
+  font-family: "main", sans-serif;
 }

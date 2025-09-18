@@ -9,7 +9,17 @@ export default function Forside() {
         <button className="forside-knap">Klik Mig</button>
         <div className="forside-title">
           <p>This is</p>
-          <Animatedtext className="me-p"></Animatedtext>
+          <Animatedtext
+            initialText="ME"
+            animatedTextArray={[
+              "Frontend|Developer",
+              "Multimedia|Designer",
+              "UI/UX|Strategist",
+              "Curiosity|Driven",
+              "People|Oriented",
+              "Inclusive|Thinker",
+            ]}
+          ></Animatedtext>
         </div>
       </div>
     </div>
