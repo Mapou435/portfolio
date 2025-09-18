@@ -34,12 +34,14 @@ export default function Karousel({ items }) {
           </a>
         </div>
       </div>
-      <button className="prev-arrow" onClick={prev}>
-        &lt;
-      </button>
-      <button className="next-arrow" onClick={next}>
-        &gt;
-      </button>
+      <div className="arrows">
+        <button className="prev-arrow" onClick={prev}>
+          🡸
+        </button>
+        <button className="next-arrow" onClick={next}>
+          🡺
+        </button>
+      </div>
     </div>
   );
 }

@@ -142,7 +142,7 @@ button:focus-visible {
   font-family: "main", sans-serif;
   font-size: 2vh;
   z-index: 4;
-  bottom: 4vh;
+  bottom: 10vh;
   left: 4vw;
   width: 10vw;
   max-width: 2000px;

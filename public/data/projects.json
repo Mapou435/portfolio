@@ -10,7 +10,7 @@
         "text": "Se mere ➞"
       }
     ],
-    "image": "https://www.svgrepo.com/show/508699/landscape-placeholder.svg"
+    "image": "./img/client3.png"
   },
   {
     "id": "1",
@@ -23,7 +23,7 @@
         "text": "Se mere ➞"
       }
     ],
-    "image": "./img/logo.png"
+    "image": "./img/client1.png"
   },
   {
     "id": "2",
@@ -36,7 +36,7 @@
         "text": "Se mere ➞"
       }
     ],
-    "image": "https://www.svgrepo.com/show/508699/landscape-placeholder.svg"
+    "image": "./img/client2.png"
   },
   {
     "id": "3",
@@ -49,6 +49,6 @@
         "text": "Se mere ➞"
       }
     ],
-    "image": "https://www.svgrepo.com/show/508699/landscape-placeholder.svg"
+    "image": "./img/client4.png"
   }
 ]
