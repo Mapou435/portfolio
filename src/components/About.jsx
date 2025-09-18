@@ -1,11 +1,11 @@
 export default function About() {
   function handleKontakt() {
-    alert("du har klikket på kontakt mig");
+    window.location.hash = "#Kontakt";
     console.log("knap klikket");
   }
 
   function handleDownload() {
-    alert("Du har downloaded mit CV");
+    window.open("public/data/CV - Mathilde Poulsen.pdf", "_blank");
     console.log("downloadet CV");
   }
   return (
@@ -23,14 +23,15 @@ export default function About() {
             Kontakt mig
           </button>
           <button id="download-cv" onClick={handleDownload}>
-            Download CV
+            Læs mit CV
           </button>
         </div>
         <p className="about-body">
           Jeg er Mathilde, frontend developer med fokus på innovation,
-          nytænkning og design. For mig handler design, frontend og grafisk, om
-          meget mere end æstetik, det handler om at skabe en smertefri og
-          spændende oplevelse for kunder. <br />
+          nytænkning og design. <br />
+          For mig handler design, frontend og grafisk, om meget mere end
+          æstetik, det handler om at skabe en smertefri og spændende oplevelse
+          for kunder. <br />
           <br />
           Jeg prøver altid at tænke ud af boksen, samfundet bliver hurtigere og
           hurtigere, hvis ikke du kan skabe et spændende og interessant blikfang

@@ -233,9 +233,9 @@ button,
   border-radius: 0 !important;
 }
 
-/*Footer CSS*/
+/*Kontakt CSS*/
 .footer-section {
-  background-color: yellow;
+  background-color: rgb(104, 104, 104);
   height: 100vh;
   width: 100vw;
 }
