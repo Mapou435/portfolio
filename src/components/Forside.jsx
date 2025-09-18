@@ -1,3 +1,5 @@
+import Animatedtext from "./Animatedtext";
+
 export default function Forside() {
   return (
     <div className="forside">
@@ -7,7 +9,7 @@ export default function Forside() {
         <button className="forside-knap">Klik Mig</button>
         <div className="forside-title">
           <p>This is</p>
-          <p className="me-p">ME</p>
+          <Animatedtext className="me-p"></Animatedtext>
         </div>
       </div>
     </div>
