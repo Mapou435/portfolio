@@ -1,25 +1,18 @@
+import { useEffect, useState } from "react";
 import Karousel from "./karousel";
 
-const items = [
-  {
-    image: "/img/project1.png",
-    title: "Project One",
-    subtitle: "React Carousel",
-    text: "This is a dynamic carousel example.",
-  },
-  {
-    image: "/img/project2.png",
-    title: "Project Two",
-    subtitle: "Animated Entry",
-    text: "You can customize the animation and layout.",
-  },
-  // Add more items as needed
-];
-
 export default function Projects() {
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    fetch("/data/projects.json")
+      .then((res) => res.json())
+      .then((data) => setItems(data));
+  }, []);
+
   return (
     <div className="projects">
-      <Karousel items={items} />
+      {items.length > 0 ? <Karousel items={items} /> : <p>Loading...</p>}
     </div>
   );
 }

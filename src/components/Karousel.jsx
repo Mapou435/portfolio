@@ -9,23 +9,23 @@ export default function Karousel({ items }) {
   const prev = () => setActive((prev) => (prev - 1 + length) % length);
 
   return (
-    <div className="carousel-container">
-      <button className="carousel-arrow left" onClick={prev}>
-        &lt;
-      </button>
-      <div className="carousel-slide">
+    <div className="karousel-box">
+      <div className="karousel-main">
         <img
           src={items[active].image}
           alt={items[active].title}
-          className="carousel-image"
+          className="karousel-image"
         />
-        <div className="carousel-content">
-          <h2 className="carousel-title">{items[active].title}</h2>
-          <h3 className="carousel-subtitle">{items[active].subtitle}</h3>
-          <p className="carousel-text">{items[active].text}</p>
+        <div className="karousel-hero">
+          <h2 className="karousel-title">{items[active].title}</h2>
+          <h3 className="karousel-subtitle">{items[active].subtitle}</h3>
+          <p className="karousel-text">{items[active].text}</p>
         </div>
       </div>
-      <button className="carousel-arrow right" onClick={next}>
+      <button className="prev-arrow" onClick={prev}>
+        &lt;
+      </button>
+      <button className="next-arrow" onClick={next}>
         &gt;
       </button>
     </div>

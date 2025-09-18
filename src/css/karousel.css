@@ -1,0 +1,14 @@
+.karousel-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.karousel-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.karousel-image {
+  width: 25vw;
+  height: 25vh;
+}

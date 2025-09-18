@@ -1,0 +1,54 @@
+[
+  {
+    "id": "0",
+    "name": "Zero Buzz Brew",
+    "subtitle": "Branding & Marketing",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
+    "links": [
+      {
+        "url": "https://zerobuzzbrew.natk.dk/",
+        "text": "Se mere her"
+      }
+    ],
+    "image": "https://www.svgrepo.com/show/508699/landscape-placeholder.svg"
+  },
+  {
+    "id": "1",
+    "name": "Psykiske Lidelser",
+    "subtitle": "Gamification",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
+    "links": [
+      {
+        "url": "https://www.steno.makiro.dk/index.html",
+        "text": "Se mere her"
+      }
+    ],
+    "image": "./img/logo.png"
+  },
+  {
+    "id": "2",
+    "name": "Radar",
+    "subtitle": "Crowdfunding og webdesign",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
+    "links": [
+      {
+        "url": "https://www.radar.makiro.dk/",
+        "text": "Se mere her"
+      }
+    ],
+    "image": "https://www.svgrepo.com/show/508699/landscape-placeholder.svg"
+  },
+  {
+    "id": "3",
+    "name": "Aarhus Street food",
+    "subtitle": "Responsive webdesign",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
+    "links": [
+      {
+        "url": "https://www.streetfood.makiro.dk/",
+        "text": "Se mere her"
+      }
+    ],
+    "image": "https://www.svgrepo.com/show/508699/landscape-placeholder.svg"
+  }
+]
