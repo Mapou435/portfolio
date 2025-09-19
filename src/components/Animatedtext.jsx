@@ -50,7 +50,7 @@ export default function AnimatedText({ initialText, animatedTextArray }) {
       typedInstances.current = [];
       if (containerRef) containerRef.innerHTML = "";
     };
-  }, []); // Hvis jeg fikset denne warning starter animationen forsent
+  }, [animatedTextArray]);
 
   return (
     <div className="animated-text-container">
