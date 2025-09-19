@@ -369,7 +369,6 @@ form {
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   overscroll-behavior-y: contain;
-  scroll-padding-top: 0;
 }
 
 .snap-section {
