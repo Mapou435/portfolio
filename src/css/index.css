@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "sub";
-  src: url("../src/fonts/subfont/MelloidaDEMO-ExtraBold.ttf") format("truetype");
+  src: url("../fonts/subfont/MelloidaDEMO-ExtraBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -89,7 +89,7 @@ button:focus-visible {
 /*FORSIDE CSS*/
 
 .forside-layout {
-  background-image: url("./img/background-forside.png");
+  background-image: url("/img/background-forside.png");
   background-size: cover;
   position: relative;
   width: 100vw;
@@ -195,7 +195,7 @@ button:focus-visible {
   width: 100vw;
   display: flex;
   flex-direction: column;
-  background-image: url("./img/background-forside.png");
+  background-image: url("/img/background-forside.png");
   background-size: cover;
 }
 
@@ -247,7 +247,7 @@ button,
   height: 100vh;
   justify-content: space-between;
   gap: 2vh;
-  background-image: url("./img/background-forside.png");
+  background-image: url("/img/background-forside.png");
   background-size: cover;
 }
 
@@ -369,6 +369,7 @@ form {
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   overscroll-behavior-y: contain;
+  scroll-padding-top: 0;
 }
 
 .snap-section {

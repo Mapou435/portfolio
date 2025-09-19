@@ -12,7 +12,7 @@ export default function About() {
   }
 
   function handleDownload() {
-    window.open("public/data/CV - Mathilde Poulsen.pdf", "_blank");
+    window.open("/data/CV - Mathilde Poulsen.pdf", "_blank");
     console.log("downloadet CV");
   }
   return (
