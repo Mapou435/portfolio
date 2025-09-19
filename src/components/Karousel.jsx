@@ -28,10 +28,21 @@ export default function Karousel({ items }) {
           <a
             className="karousel-link"
             href={items[active].links[0]?.url || "#"}
-            target="_blank"
+            target="../"
           >
             {items[active].links[0]?.text || "Se mere her"}
           </a>
+          {items[active].designmanual && (
+            <p className="karousel-designmanual">
+              <a
+                href="/data/design-manual-zbb.pdf"
+                target="_blank"
+                rel="Se design manual"
+              >
+                Designmanual
+              </a>
+            </p>
+          )}
         </div>
       </div>
       <div className="arrows">

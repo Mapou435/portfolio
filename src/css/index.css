@@ -242,7 +242,7 @@ button,
 
 .kontakt-form {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100vw;
   height: 100vh;
   justify-content: space-between;
@@ -254,32 +254,38 @@ button,
 form {
   display: flex;
   flex-direction: column;
-  padding-bottom: 12vh;
-  margin-right: 12vw;
+  padding-top: 27vh;
+  margin-right: 6vw;
   font-family: "sub", sans-serif;
 }
 
+#form-title {
+  color: #a10f0f;
+  text-align: right;
+  font-size: 4vh;
+  transform: rotate(15deg);
+  padding-bottom: 5vh;
+  padding-right: 2vw;
+}
 .kontakt-form h2 {
   font-family: "main", sans-serif;
   color: #1f1f1f;
   margin-top: 15vh;
-  font-size: 4.5vw;
+  font-size: 6vw;
+  margin-bottom: 0;
   /*transform: rotate(-20deg);*/
 }
-/*#pil-kontakt {
-  font-size: 14vw;
-  margin-left: 15vw;
+#pil-kontakt {
   display: inline-block;
-  transform: rotate(0deg);
-}*/
+  padding-bottom: 2vh;
+  transform: rotate(180deg) scaleX(-1);
+}
 
 .kontakt-form input {
-  width: 25vw;
   height: 5vh;
 }
 
 .kontakt-form textarea {
-  width: 25vw;
   height: 20vh;
   resize: none;
   margin-top: 2vh;
@@ -294,17 +300,26 @@ form {
   display: flex;
   align-content: flex-start;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
-.bottom-form p {
-  font-family: "sub", sans-serif;
+.bottom-form-links {
+  list-style: none;
+  font-family: "body", sans-serif;
   color: #1f1f1f;
+  font-size: 3vh;
+  padding: 1vh;
+}
+
+.type-kontakt {
+  font-family: "sub", sans-serif;
+  color: #a10f0f;
 }
 
 .kontakt-form input,
 .kontakt-form textarea {
+  width: 60vh;
   font-family: "body", sans-serif;
   color: #1f1f1f;
   background-color: #e9e9e9;

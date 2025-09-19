@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  align-items: center;
   width: 100vw;
   height: 100vh;
   z-index: 10;
@@ -25,6 +24,10 @@
 .next-arrow {
   position: relative;
   z-index: 1;
+}
+
+.karousel-designmanual a:visited {
+  color: #a10f0f;
 }
 
 .karousel-main {
@@ -49,8 +52,8 @@
   justify-content: center;
   position: relative;
   padding: 0;
-  bottom: 5%;
-  left: 15%;
+  bottom: 15%;
+  left: 18%;
   z-index: 2;
   width: 40vw;
 }
@@ -92,7 +95,7 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  margin: 0vh 0vh 5vh 100vh;
+  margin: 0vh 0vh 10vh 110vh;
 }
 
 .arrows button {
