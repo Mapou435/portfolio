@@ -59,8 +59,9 @@ export default function Contact() {
       </div>
       <div className="kontakt-form-side">
         {sent ? (
-          <p>
-            Tak for din interesse! <br /> Jeg vender tilbage hurtigst muligt.
+          <p className="form-efter">
+            Tak for din interesse! <br /> Jeg vender tilbage
+            <span id="form-udfyld"> hurtigst muligt. </span>
           </p>
         ) : (
           <form onSubmit={handleSubmit}>

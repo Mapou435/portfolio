@@ -259,6 +259,24 @@ form {
   font-family: "sub", sans-serif;
 }
 
+.form-efter {
+  position: relative;
+  top: 55vh;
+  right: 5vw;
+  padding-top: 2vh;
+  text-align: right;
+  font-family: "main", sans-serif;
+  color: #1f1f1f;
+  font-size: 4vh;
+  width: 35vw;
+  background-color: #e9e9e9;
+  height: 40vh;
+}
+
+#form-udfyld {
+  color: #a10f0f;
+}
+
 #form-title {
   color: #a10f0f;
   text-align: right;
@@ -273,8 +291,8 @@ form {
   margin-top: 15vh;
   font-size: 6vw;
   margin-bottom: 0;
-  /*transform: rotate(-20deg);*/
 }
+
 #pil-kontakt {
   display: inline-block;
   padding-bottom: 2vh;
@@ -328,12 +346,21 @@ form {
   font-size: 2.2vh;
 }
 /*Sikre at det ikke er noget overlap som stopper input*/
+
 .kontakt-form,
 .kontakt-form form,
 .kontakt-form input,
 .kontakt-form textarea,
 .kontakt-form button {
   z-index: 1000 !important;
+}
+
+/*Prøvede alt for at få blå baggrund til at gå væk, co-pilot gav denne løsning*/
+.kontakt-form input:-webkit-autofill,
+.kontakt-form textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #e9e9e9 inset !important;
+  box-shadow: 0 0 0 1000px #e9e9e9 inset !important;
+  -webkit-text-fill-color: #1f1f1f !important;
 }
 
 /* SNAP SCROLL CSS */
