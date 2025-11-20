@@ -366,14 +366,10 @@ form {
 /* SNAP SCROLL CSS */
 .snap-container {
   height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-  overscroll-behavior-y: contain;
 }
 
 .snap-section {
   height: 100vh;
-  scroll-snap-align: start;
 }
 
 /*NAV BAR CSS*/
